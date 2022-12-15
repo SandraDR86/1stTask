@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctame</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body style="background-color:#FDFDBD;">
+    <h3><b>Contactar a Sandra Dévora:</h3></b><br />
+    <h3>📞 +44 7895 291942</h3>
+    <h3>📧 sanat13@hotmail.com</h3>
+    <h3>🏠 Los Realejos, Tenerife</h3>
+
+    <!--para insertar iconos presionamos la tecla windows+.-->
+
+    <form action="mailto:sanat13@hotmail.com" method="post" enctype="text/plain">
+        <!--esto es para que me llegue un correo a mi con la gente k me contacta y se lea la info correcta -->
+        <table cellspacing="10">
+            <tr>
+                <td align="right">
+                    <label>Nombre:</label>
+                </td>
+
+
+                <td align="left">
+                    <input type="text" name="nombre" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label>Apellidos:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="apellidos" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label>Email:</label>
+                </td>
+                <td align="left">
+                    <input type="email" name="email" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label>Web Personal:</label>
+                </td>
+                <td align="left"> <input type="website" name="website" required></td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label>Escriba su Mensaje:</label>
+                </td>
+                <td align="left">
+                    <textarea rows="10" cols="21" name="mensaje" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="archivo">Subir Archivo:</label>
+                </td>
+                <td> <input type="file" id="archivo" name="archivo"></td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label>Genre:</label>
+                </td>
+                <td align="left">
+                    <input type="radio" name="female" id="female">Female
+                    <input type="radio" name="male" id="male">Male
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="transporte">Método de transporte:</label>
+                </td>
+                <td align="left">
+                    <select id="transporte">
+                        <option value="Elegir">Elegir</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Car">Car</option>
+                        <option value="Bus">Bus</option>
+                        <option value="Scooter">Scooter</option>
+                    </select>
+
+                </td>
+        </table>
+       
+    </form>
+     <td align="left">
+
+        <label for="transporte">Método de transporte:</label>
+
+    <form>
+        <input type="checkbox" name="bike" value="Bike">
+        <label>Bike</label>
+        <input type="checkbox" name="Car" value="Car">
+        <label>Car</label>
+        <input type="checkbox" name="Walk" value="Walk">
+        <label>Walk</label>
+    </td>
+
+    </form>
+    <input type="submit" />
+    <input type="reset" />
+    <input type="file" />
+
+
+
+</body>
+
+</html>

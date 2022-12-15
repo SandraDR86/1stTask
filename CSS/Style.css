@@ -1,0 +1,38 @@
+/*Hoja de estilo CSS*/
+/*ESTO ES PARA AÑADIR UN COMENTARIO EN CSS*/
+
+body {
+    background-color: #FFDCA9;
+}
+
+hr {
+    border-width: 5px;
+    border-color: grey;
+    border-style: dotted none none none;
+    width: 6%;
+    text-align: left;
+}
+
+img {
+    height: 150px
+}
+
+h1 {
+    color: #340474
+}
+
+h2 {
+    color: #381083
+}
+
+/***********CLASS********/
+
+.fondogris {    /*para añadir el color de algo le tengo que añadir class:"nombre"*/
+    background-color: grey;
+}
+
+#table1 {   /*esto es el id, que para referenciarlo es con hashtag*/
+    background-color: red;
+}
+
+
